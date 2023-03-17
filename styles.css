@@ -27,11 +27,37 @@ body {
 }
 
 .content-txt {
-  color: white;
-  width: 20rem;
+  color: #fff;
   position: absolute;
-  top: 400px;
-  left: 1050px;
+  width: 404px;
+  height: 500px;
+  top: 346px;
+  left: 936px;
+}
+.content-txt h1 {
+  font-size: 80px;
+  text-align: left;
+}
+.content-txt p {
+  margin-top: 40px;
+  text-align: left;
+  font-size: 15px;
+  line-height: 150.68%;
+}
+
+.frame {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.frame button {
+  padding: 11px 15px;
+  background-color: #993cd2;
+  color: #fff;
+  cursor: pointer;
+  transform: skewX(-20deg);
+  border: none;
 }
 
 .nav-items {
@@ -76,6 +102,7 @@ main {
   font-weight: 700;
   font-size: 50px;
   text-transform: uppercase;
+  margin: -39px 0px;
 }
 
 .centre-text button {
@@ -88,11 +115,11 @@ main {
   width: 200px;
   height: 40px;
   transform: skewX(-20deg);
+  border: none;
 }
 
 .centre-text img {
-  width: 45rem;
-  height: 50px;
+  max-width: 100%;
 }
 
 .btn-text {
@@ -134,6 +161,41 @@ main {
   background-size: contain;
 }
 
+.content-txt2 {
+  color: #fff;
+  position: absolute;
+  width: 404px;
+  height: 500px;
+  top: 1430px;
+  left: 200px;
+}
+.content-txt2 h1 {
+  font-size: 40px;
+  text-align: left;
+  margin: -17px 0px;
+}
+.content-txt2 p {
+  margin-top: 40px;
+  text-align: left;
+  font-size: 15px;
+  line-height: 150.68%;
+}
+
+.content-txt2 button {
+  padding: 11px 15px;
+  background-color: #993cd2;
+  color: #fff;
+  cursor: pointer;
+  transform: skewX(-20deg);
+  border: none;
+  margin-left: -242px;
+}
+
+.content-txt2 img {
+  max-width: 100%;
+  margin: -4px 0px;
+}
+
 .crousels2 {
   display: flex;
   justify-content: space-around;
@@ -145,6 +207,7 @@ main {
 
 .card2 {
   width: 20rem;
+  height: 400px;
   border: 1px solid #3a2746;
   border-radius: 0.5rem;
   background: #3a2746;
@@ -154,6 +217,110 @@ main {
 }
 
 .card2 img {
-  width: 15rem;
-  height: 270px;
+  width: 100%;
+}
+
+.car-section {
+  height: 100%;
+  background: url("car-img.png") no-repeat;
+  background-size: contain;
+}
+
+.content-txt3 {
+  color: #fff;
+  position: absolute;
+  width: 404px;
+  height: 500px;
+  top: 2680px;
+  right: 200px;
+}
+.content-txt3 h1 {
+  font-size: 40px;
+  text-align: left;
+  margin: -17px 0px;
+}
+.content-txt3 p {
+  margin-top: 40px;
+  text-align: left;
+  font-size: 15px;
+  line-height: 150.68%;
+}
+
+.content-txt3 button {
+  padding: 11px 15px;
+  background-color: #993cd2;
+  color: #fff;
+  cursor: pointer;
+  transform: skewX(-20deg);
+  border: none;
+  margin-left: -242px;
+}
+
+.content-txt3 img {
+  max-width: 100%;
+  margin: -4px 0px;
+}
+
+/* footer section  */
+
+.footer {
+  background: url("Mask\ group.png");
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.footer-text {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  gap: 3rem;
+  position: absolute;
+  margin-bottom: 8rem;
+}
+
+.contacts {
+  width: 10rem;
+}
+
+.contacts p {
+  margin-top: 2rem;
+  color: #993cd2;
+}
+
+.our-games {
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+}
+
+.our-games-col {
+  margin-top: 2rem;
+  color: #993cd2;
+  display: flex;
+  line-height: 1.5rem;
+  gap: 3rem;
+}
+
+.support {
+  width: 10rem;
+}
+.support p {
+  margin-top: 2rem;
+  color: #993cd2;
+  line-height: 1.5rem;
+}
+
+.mogli {
+  width: 20rem;
+  text-align: center;
+}
+
+.mogli p {
+  margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
