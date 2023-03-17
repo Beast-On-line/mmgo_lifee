@@ -1,0 +1,159 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: rgba(255, 255, 255, 0.02);
+  background: #12131a;
+}
+
+.header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2rem;
+  padding: 1rem;
+}
+
+.content-txt {
+  color: white;
+  width: 20rem;
+  position: absolute;
+  top: 500px;
+  left: 500px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  column-gap: 2rem;
+}
+
+.nav-items .highlighted {
+  color: #af6cd8;
+}
+
+.nav-items li {
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+}
+
+main {
+  height: 900px;
+}
+
+.hero-section {
+  height: 100%;
+  background: url("BG\ IMAGE.png") no-repeat;
+  background-size: contain;
+}
+
+.centre-text {
+  display: flex;
+  width: 80%;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  gap: 13rem;
+  margin: auto;
+  margin-top: -7rem;
+  margin-bottom: 2rem;
+}
+
+.centre-text p {
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.centre-text button {
+  background: #993cd2;
+  font-weight: 600;
+  font-size: 10px;
+  color: #fff;
+  letter-spacing: 0.135em;
+  text-transform: uppercase;
+  width: 200px;
+  height: 40px;
+  transform: skewX(-20deg);
+}
+
+.centre-text img {
+  width: 45rem;
+  height: 50px;
+}
+
+.btn-text {
+  transform: skewX(20deg);
+}
+
+.crousels {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  gap: 2rem;
+}
+
+.card {
+  height: 370px;
+  width: 370px;
+  border: 1px solid #3a2746;
+  border-radius: 0.5rem;
+  background: #3a2746;
+  padding: 10px;
+  color: #fff;
+}
+
+.card img {
+  width: 350px;
+}
+
+.card p {
+  margin-top: 1rem;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.heroine-section {
+  height: 100%;
+  background: url("BG\ Image\ heroine.png") no-repeat;
+  background-size: contain;
+}
+
+.crousels2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  gap: 4rem;
+  width: 80%;
+}
+
+.card2 {
+  width: 20rem;
+  border: 1px solid #3a2746;
+  border-radius: 0.5rem;
+  background: #3a2746;
+  padding: 8px;
+  color: #fff;
+  text-align: center;
+}
+
+.card2 img {
+  width: 15rem;
+  height: 270px;
+}
